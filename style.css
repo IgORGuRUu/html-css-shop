@@ -1,0 +1,68 @@
+.container-father{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+.textbox{
+    width: fit-content;
+    padding: 2px 4px 2px 4px;
+    position: relative;
+    z-index: 1;
+    bottom: 376px;
+}
+
+.textbox.green{
+    background-color: green;
+    left: 257px;
+}
+
+.textbox.red{
+    background-color: red;
+    left: 265px;
+}
+
+.img-container{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 100%;
+    margin:auto; 
+    display:block;
+    z-index: 1;
+        
+}
+.conteiner img{
+    display:block;
+    margin:auto;
+
+.container-father.second{
+   top: 430px;
+}
+.container-heart{
+    height: 372px;
+    position: relative;
+    color: red;
+    text-align: center;
+    bottom: 398px;
+    opacity: 0;
+    transition: 0.2s ease;
+}
+
+.hearts{
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    left:50%;
+    color: transparent;
+    font-size: x-large;
+ }
+
+
+ .box:hover .hearts{
+    color: red;
+ }
+}
+.heart{
+    position: relative;
+    top:340px;
+}
