@@ -1,0 +1,62 @@
+ #contenitore{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+ }
+ .img-container{
+    display:inline-block;
+    position: relative;
+ }
+.container-father{
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+/*Larghezza immagine*/
+.img{
+    width: 500px;
+    height: 100%;
+    margin:auto;
+    display:block;   
+}
+
+/*I rettangoli di due colori,
+con il setting della grandezza e della pozione*/
+
+.red-rectangle{
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    display: inline;
+    z-index: 2;
+}
+.green-rectangle{
+    width:40px;
+    height:20px;
+    background-color: green;
+    position:absolute;
+    top:0;
+    text-align: center;
+    right:0;
+    display: inline;
+    z-index: 2;
+}
+/*Fine setting rettangoli*/
+
+/*Cuore a comparsa*/
+
+.hearts{
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    left:50%;
+    color: transparent;
+    font-size: x-large;
+ }
+
+
+/*The End*/
